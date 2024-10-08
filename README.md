@@ -36,6 +36,9 @@ In a different terminal window,
 
 * Navigate to the fe directory: `cd fe`
 * Install dependencies: `npm install`
+  * **NOTE: If you are running node version 17+ you will need to run the following command BEFORE `npm start`.**
+      * `export NODE_OPTIONS=--openssl-legacy-provider`
+      * You can check your node version by running `node -v`
 * Run the app: `npm start`
 * visit `localhost:3000` in your browser
 
